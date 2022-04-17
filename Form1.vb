@@ -1,26 +1,25 @@
 ﻿Public Class Form1
     '--------------------------------------------------------------------------------
     '-                      File Name: Form1                                        -
-    '-                      Part of Project: Excel Linking Application (cis311 HW9) -
+    '-                      Part of Project: custom framework control program       -
     '--------------------------------------------------------------------------------
     '-                      Written By: Andrew A. Loesel                            -
     '-                      Written On: April 14, 2022                              -
     '--------------------------------------------------------------------------------
     '- File Purpose:                                                                -
     '-                                                                              -
-    '- This file contains all functionality of the program. We take care of all I/O -
-    '- in this File. 
+    '- This file contains the form definition for the form that we put our custom   -
+    '- control on.                                                                  -
     '--------------------------------------------------------------------------------
     '- Program Purpose:                                                             -
     '-                                                                              -
-    '- The purpose of this program is to load some data into a list on the front end-
-    '- and then send that data to an excel sheet. We also will program formulas into-
-    '- the excel sheet to take care of averages, stdevs, min and max for the student-
-    '- scores that we are working with.                                             -
+    '- The purpose of this program is to create a custom control for windows forms, -
+    '- and implement this crontrol on a forms application.                          -
     '--------------------------------------------------------------------------------
     '- Global Variable Dictionary (alphabetically):                                 -
-    '- myStudents - a generic list of clsStudents. Holds all the student data we    -
-    '-              work with in this application.                                  -
+    '- theEndColor - the end color of our gradient.                                 -
+    '- theGradientMode - the gradient mode of our control.                          -
+    '- theStartColor - the start color of our gradient.                             -
     '--------------------------------------------------------------------------------
     Private Sub btnStart_Click(sender As Object, e As EventArgs) Handles btnStart.Click
         '------------------------------------------------------------------------------
